@@ -23,3 +23,6 @@ Are you sure you want to continue connecting (yes/no)?
 输入 yes 回车
 弹出密码输入框，输入密码，输入你创建KRY 时的密码
 控制台打印出”You've successfully authenticated, but GitHub does not provide shell access.“ 信息时，表明key 配置好了
+
+
+git clone git@github.com:theme-particlex/hexo-theme-particlex.git particlex --depth=1
