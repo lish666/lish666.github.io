@@ -1,0 +1,25 @@
+hexo clean
+hexo g
+hexo s 
+hexo s -p 5000  //端口被占用使用
+//报错extends includes/layout.pug block content include ./includes/mixins/post-ui.pug #recent-posts.recent-posts +postUI include includes/pagination.pug
+//使用
+npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
+
+
+//
+ssh-keygen -t rsa -C "www.lshlsh@qq.com"
+$ ssh-keygen -t rsa -C "你的邮箱"
+默认在 /Users/xxx/.ssh/id_rsa 
+git remote add origin git@github.com:xxx/xxx.git
+2、GitHub 中添加 key
+登录 github.com -> Account Settings -> SSH and GPG Keys -> NEW SSH Key
+title 随便填，
+Key 粘贴id_rsa.pub里的内容
+3、验证 key
+$ ssh -T git@github.com
+第一次验证会出现
+Are you sure you want to continue connecting (yes/no)?
+输入 yes 回车
+弹出密码输入框，输入密码，输入你创建KRY 时的密码
+控制台打印出”You've successfully authenticated, but GitHub does not provide shell access.“ 信息时，表明key 配置好了
