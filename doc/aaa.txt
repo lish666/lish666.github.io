@@ -2,9 +2,10 @@ hexo clean
 hexo g
 hexo s 
 hexo s -p 5000  //端口被占用使用
+hexo d
 //报错extends includes/layout.pug block content include ./includes/mixins/post-ui.pug #recent-posts.recent-posts +postUI include includes/pagination.pug
 //使用
-npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
+npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive -save -d
 
 
 //
